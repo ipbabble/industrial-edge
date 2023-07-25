@@ -47,6 +47,7 @@ clusterGroup:
     openshift-pipelines:
       name: openshift-pipelines-operator
       source: openshift-operators
+      sourceNamespace: openshift-marketplace
       
   projects:
   - datacenter

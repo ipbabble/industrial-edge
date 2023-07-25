@@ -10,6 +10,7 @@ clusterGroup:
   - manuela-tst-all
   - manuela-ci
   - manuela-data-lake
+  - openshift-pipelines
   - staging
   - vault
 

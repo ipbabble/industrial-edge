@@ -42,8 +42,6 @@ clusterGroup:
     rhods-prod-dev:
       name: rhods-operator
       namespaces: 
-      - manuela-ml-workspace
-      - manuela-tst-all
       - redhat-ods-operator
 
     pipelines:

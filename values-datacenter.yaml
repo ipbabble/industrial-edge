@@ -77,6 +77,11 @@ clusterGroup:
       namespace: manuela-ci
       project: datacenter
       path: charts/datacenter/pipelines
+      ignoreDifferences:
+      - kind: ServiceAccount
+        jsonPointers:
+        - /imagePullSecrets
+        - /secrets
 
     production-data-lake:
       name: production-data-lake

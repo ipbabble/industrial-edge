@@ -43,7 +43,7 @@ clusterGroup:
       namespaces: 
       - redhat-ods-operator
 
-    pipelines:
+    openshift-pipelines:
       name: openshift-pipelines-operator-rh
       source: openshift-operators
       

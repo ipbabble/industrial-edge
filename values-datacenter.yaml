@@ -45,10 +45,9 @@ clusterGroup:
       - redhat-ods-operator
 
     openshift-pipelines:
-      name: openshift-pipelines-operator
+      name: openshift-pipelines-operator-rh
       source: openshift-operators
-      sourceNamespace: openshift-marketplace
-      
+
   projects:
   - datacenter
   - production-datalake

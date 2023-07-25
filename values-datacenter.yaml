@@ -39,12 +39,12 @@ clusterGroup:
       - manuela-data-lake
       - manuela-tst-all
 
-    seldon-prod-dev:
-      name: seldon-operator
+    rhods-prod-dev:
+      name: rhods-operator
       namespaces: 
       - manuela-ml-workspace
       - manuela-tst-all
-      source: community-operators
+      - redhat-ods-operator
 
     pipelines:
       name: openshift-pipelines-operator-rh

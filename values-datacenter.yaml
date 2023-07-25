@@ -44,7 +44,7 @@ clusterGroup:
       - redhat-ods-operator
 
     openshift-pipelines:
-      name: openshift-pipelines-operator-rh
+      name: openshift-pipelines-operator
       source: openshift-operators
       
   projects:
